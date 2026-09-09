@@ -1,0 +1,131 @@
+{
+  "schema_version": "paid_study.v1",
+  "source": "book-paid-study-data",
+  "retrieved_at": "2026-09-07T00:00:00Z",
+  "data_status": "fixture",
+  "items": [
+    {
+      "id": "paid-study-demo-open",
+      "title": "Synthetic Paid research participation example",
+      "category": "user-interview",
+      "source_url": "https://example.org/paid-study/demo",
+      "provider": "Synthetic provider",
+      "status": "open",
+      "deadline": {
+        "kind": "fixed",
+        "at": "2026-09-08T00:00:00Z"
+      },
+      "eligible_countries": [],
+      "eligibility_text": "Unknown; this synthetic example does not establish eligibility.",
+      "value": {
+        "kind": "unknown",
+        "amount": null,
+        "currency": null,
+        "guaranteed": null
+      },
+      "cost": {
+        "fee_amount": null,
+        "currency": null,
+        "auto_renewal": null,
+        "notes": "Unknown; no claim of zero cost."
+      },
+      "terms": {
+        "study_method": "Synthetic example; verify official terms before use.",
+        "duration_minutes": 0,
+        "screening_required": false,
+        "consent_and_data_use": "Synthetic example; verify official terms before use."
+      },
+      "related_records": [],
+      "provenance": {
+        "evidence_kind": "fixture",
+        "source_id": "synthetic-fixture",
+        "source_record_id": "paid-study-demo-open",
+        "checked_at": "2026-09-07T00:00:00Z",
+        "raw_object_key": null,
+        "bronze_manifest_key": null
+      }
+    },
+    {
+      "id": "paid-study-demo-closed",
+      "title": "Synthetic Paid research participation example",
+      "category": "user-interview",
+      "source_url": "https://example.org/paid-study/demo",
+      "provider": "Synthetic provider",
+      "status": "closed",
+      "deadline": {
+        "kind": "fixed",
+        "at": "2026-09-06T00:00:00Z"
+      },
+      "eligible_countries": [],
+      "eligibility_text": "Unknown; this synthetic example does not establish eligibility.",
+      "value": {
+        "kind": "unknown",
+        "amount": null,
+        "currency": null,
+        "guaranteed": null
+      },
+      "cost": {
+        "fee_amount": null,
+        "currency": null,
+        "auto_renewal": null,
+        "notes": "Unknown; no claim of zero cost."
+      },
+      "terms": {
+        "study_method": "Synthetic example; verify official terms before use.",
+        "duration_minutes": 0,
+        "screening_required": false,
+        "consent_and_data_use": "Synthetic example; verify official terms before use."
+      },
+      "related_records": [],
+      "provenance": {
+        "evidence_kind": "fixture",
+        "source_id": "synthetic-fixture",
+        "source_record_id": "paid-study-demo-closed",
+        "checked_at": "2026-09-07T00:00:00Z",
+        "raw_object_key": null,
+        "bronze_manifest_key": null
+      }
+    },
+    {
+      "id": "paid-study-demo-unknown",
+      "title": "Synthetic Paid research participation example",
+      "category": "user-interview",
+      "source_url": "https://example.org/paid-study/demo",
+      "provider": "Synthetic provider",
+      "status": "unknown",
+      "deadline": {
+        "kind": "unknown",
+        "at": null
+      },
+      "eligible_countries": [],
+      "eligibility_text": "Unknown; this synthetic example does not establish eligibility.",
+      "value": {
+        "kind": "unknown",
+        "amount": null,
+        "currency": null,
+        "guaranteed": null
+      },
+      "cost": {
+        "fee_amount": null,
+        "currency": null,
+        "auto_renewal": null,
+        "notes": "Unknown; no claim of zero cost."
+      },
+      "terms": {
+        "study_method": "Synthetic example; verify official terms before use.",
+        "duration_minutes": 0,
+        "screening_required": false,
+        "consent_and_data_use": "Synthetic example; verify official terms before use."
+      },
+      "related_records": [],
+      "provenance": {
+        "evidence_kind": "fixture",
+        "source_id": "synthetic-fixture",
+        "source_record_id": "paid-study-demo-unknown",
+        "checked_at": "2026-09-07T00:00:00Z",
+        "raw_object_key": null,
+        "bronze_manifest_key": null
+      }
+    }
+  ]
+}

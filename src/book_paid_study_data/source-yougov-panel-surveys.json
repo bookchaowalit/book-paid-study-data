@@ -1,0 +1,22 @@
+{
+  "id": "yougov-panel-surveys",
+  "product": "book-paid-study-data",
+  "domain": "paid-study",
+  "schema_version": "paid_study.v1",
+  "fetch_url": "https://yougov.com/en-us/about/panel",
+  "source_url": "https://yougov.com/en-us/about/panel",
+  "access": "html",
+  "content_type": "text/html",
+  "category": "survey",
+  "title": "YouGov panel surveys",
+  "provider": "YouGov",
+  "cost_notes": "Panel points, redemption, eligibility and invitation terms are governed by YouGov; no survey inventory or reward is guaranteed.",
+  "enabled": true,
+  "permission_status": "reviewed-public-read",
+  "reviewed_at": "2026-09-08",
+  "permission_evidence": "https://yougov.com/robots.txt",
+  "owner": "bookchaowalit",
+  "min_interval_seconds": 21600,
+  "retention": "private local raw archive; operational retention; no automatic deletion",
+  "use": "public paid-study metadata for personal discovery; no source-body republication"
+}

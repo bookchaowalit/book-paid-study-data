@@ -1,0 +1,22 @@
+{
+  "id": "nih-research-participant-compensation",
+  "product": "book-paid-study-data",
+  "domain": "paid-study",
+  "schema_version": "paid_study.v1",
+  "fetch_url": "https://irbo.nih.gov/protocol-development/compensation/",
+  "source_url": "https://irbo.nih.gov/protocol-development/compensation/",
+  "access": "html",
+  "content_type": "text/html",
+  "category": "academic-study",
+  "title": "NIH compensation for research participation",
+  "provider": "National Institutes of Health",
+  "cost_notes": "This page describes institutional compensation policy, not a study listing; enrollment, payment, risk and eligibility are study-specific.",
+  "enabled": true,
+  "permission_status": "reviewed-public-read",
+  "reviewed_at": "2026-09-08",
+  "permission_evidence": "https://irbo.nih.gov/robots.txt",
+  "owner": "bookchaowalit",
+  "min_interval_seconds": 21600,
+  "retention": "private local raw archive; operational retention; no automatic deletion",
+  "use": "public paid-study policy metadata for personal discovery; no source-body republication"
+}

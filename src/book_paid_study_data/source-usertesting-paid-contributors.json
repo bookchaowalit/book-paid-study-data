@@ -1,0 +1,22 @@
+{
+  "id": "usertesting-paid-contributors",
+  "product": "book-paid-study-data",
+  "domain": "paid-study",
+  "schema_version": "paid_study.v1",
+  "fetch_url": "https://www.usertesting.com/get-paid-to-test",
+  "source_url": "https://www.usertesting.com/get-paid-to-test",
+  "access": "html",
+  "content_type": "text/html",
+  "category": "usability-test",
+  "title": "UserTesting paid contributor network",
+  "provider": "UserTesting",
+  "cost_notes": "Contributor approval, test availability, payment amount and payout method are governed by UserTesting terms; no test or payment is guaranteed.",
+  "enabled": true,
+  "permission_status": "reviewed-public-read",
+  "reviewed_at": "2026-09-08",
+  "permission_evidence": "https://www.usertesting.com/robots.txt",
+  "owner": "bookchaowalit",
+  "min_interval_seconds": 21600,
+  "retention": "private local raw archive; operational retention; no automatic deletion",
+  "use": "public paid-study metadata for personal discovery; no source-body republication"
+}

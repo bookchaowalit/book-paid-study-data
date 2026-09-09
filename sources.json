@@ -1,0 +1,26 @@
+{
+  "domain": "paid-study",
+  "enabled_sources": [
+    "prolific-participants-how-it-works",
+    "respondent-paid-research-participants",
+    "usertesting-paid-contributors",
+    "yougov-panel-surveys",
+    "nih-research-participant-compensation"
+  ],
+  "enabled_category_capabilities": [
+    "user-interview",
+    "usability-test",
+    "survey",
+    "research-panel",
+    "academic-study"
+  ],
+  "candidate_source_classes": [
+    "official program API or export",
+    "official RSS or announcement feed",
+    "official public program page"
+  ],
+  "permission_status": "reviewed-public-read",
+  "network_enabled": true,
+  "policy_file": "src/book_paid_study_data/source.json",
+  "notes": "Five manually invoked official sources are enabled with a six-hour minimum interval. Platform availability and study-specific eligibility remain unknown."
+}
