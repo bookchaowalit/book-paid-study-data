@@ -32,5 +32,5 @@ Score: 6/10 -> 7.5/10 (pass 1) -> 7.5/10 (pass 2) — solid contract/source test
   participant ID, e-mail, name, phone, screener answer, balance and session token yields a
   record with none of them; output is identical to the plain-marker page (no page text is
   copied); the contract rejects an injected `participant_id` field.
-- `source.json` stays byte-identical to `source-prolific-participants-how-it-works.json`
+- `source.json` stays content-identical (parsed JSON) to `source-prolific-participants-how-it-works.json`
   (asserted by `tests/test_policy.py`), so the default CLI policy cannot drift.
