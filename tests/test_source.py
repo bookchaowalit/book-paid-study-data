@@ -15,7 +15,7 @@ class SourceTests(unittest.TestCase):
             "<p>Data collectors are required to pay participants at least £6.00/$8.00 per hour.</p>"
             "<h2>Data privacy</h2>"
             "<p>Data collectors only see your Prolific ID when reviewing your survey responses.</p>"
-        ).encode("utf-8")
+        ).encode()
 
     def test_prolific_source_fixture(self):
         source = resource("source.json")
