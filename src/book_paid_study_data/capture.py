@@ -1,4 +1,5 @@
 """Capture Prolific's public participant terms through the shared lake runtime."""
+
 import argparse
 import os
 import re
@@ -106,57 +107,57 @@ def normalize(raw, source, checked_at):
     # implying that a reader will receive an invitation or a payout.
     if source["id"] == "prolific-participants-how-it-works":
         item = {
-        "id": source["id"],
-        "title": "Prolific participant studies",
-        "category": source["category"],
-        "source_url": source["source_url"],
-        "provider": source["provider"],
-        "status": "unknown",
-        "deadline": {"kind": "unknown", "at": None},
-        "eligible_countries": [],
-        "eligibility_text": (
-            "Join the waitlist, verify the account and review each study's own "
-            "eligibility filters. Supported countries, study qualification and "
-            "invitation timing are not established by this capture."
-        ),
-        "value": {
-            "kind": "variable",
-            "amount": None,
-            "currency": None,
-            "guaranteed": False,
-        },
-        "cost": {
-            "fee_amount": None,
-            "currency": None,
-            "auto_renewal": None,
-            "notes": (
-                "The page describes participant rewards and cash-out terms but "
-                "does not establish that every account or study has zero cost."
+            "id": source["id"],
+            "title": "Prolific participant studies",
+            "category": source["category"],
+            "source_url": source["source_url"],
+            "provider": source["provider"],
+            "status": "unknown",
+            "deadline": {"kind": "unknown", "at": None},
+            "eligible_countries": [],
+            "eligibility_text": (
+                "Join the waitlist, verify the account and review each study's own "
+                "eligibility filters. Supported countries, study qualification and "
+                "invitation timing are not established by this capture."
             ),
-        },
-        "terms": {
-            "study_method": (
-                "Online research studies, surveys, questionnaires, decision games "
-                "and AI or product evaluation tasks; participation is opt-in."
-            ),
-            "duration_minutes": None,
-            "screening_required": True,
-            "consent_and_data_use": (
-                "Prolific says data is stored securely and data collectors see a "
-                "Prolific ID; any personally identifiable information request is "
-                "disclosed up front and optional. Review each study's consent "
-                "before participating."
-            ),
-        },
-        "related_records": [],
-        "provenance": {
-            "evidence_kind": "captured",
-            "source_id": source["id"],
-            "source_record_id": source["id"],
-            "checked_at": checked_at,
-            "raw_object_key": None,
-            "bronze_manifest_key": None,
-        },
+            "value": {
+                "kind": "variable",
+                "amount": None,
+                "currency": None,
+                "guaranteed": False,
+            },
+            "cost": {
+                "fee_amount": None,
+                "currency": None,
+                "auto_renewal": None,
+                "notes": (
+                    "The page describes participant rewards and cash-out terms but "
+                    "does not establish that every account or study has zero cost."
+                ),
+            },
+            "terms": {
+                "study_method": (
+                    "Online research studies, surveys, questionnaires, decision games "
+                    "and AI or product evaluation tasks; participation is opt-in."
+                ),
+                "duration_minutes": None,
+                "screening_required": True,
+                "consent_and_data_use": (
+                    "Prolific says data is stored securely and data collectors see a "
+                    "Prolific ID; any personally identifiable information request is "
+                    "disclosed up front and optional. Review each study's consent "
+                    "before participating."
+                ),
+            },
+            "related_records": [],
+            "provenance": {
+                "evidence_kind": "captured",
+                "source_id": source["id"],
+                "source_record_id": source["id"],
+                "checked_at": checked_at,
+                "raw_object_key": None,
+                "bronze_manifest_key": None,
+            },
         }
     else:
         metadata = GENERIC_SOURCES[source["id"]]
